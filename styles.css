@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+}
+
+/*nav bar*/
+
+nav {
+  background: #554137;
+  color: #EED5D2;
+  display: inline;
+  font-family: 'Abel', sans-serif;
+  left: 0;
+  margin: 0;
+  width: 175px;
+}
+
+nav h1 {
+  font-family: 'Arimo', sans-serif;
+  font-size: .75em;
+  padding: 0% 0% 13% 10%;
+  text-align: center;
+}
+
+hr {
+  border-color: #33240e;
+  margin: 0% 0% 15% 0%;
+}
+
+.nav-li {
+  font-size: .85em;
+  padding: 7% 0% 7% 10%;
+}
+
+.nav-li-admin {
+  font-size: .85em;
+  padding: 14% 0% 0% 10%;
+}
+
+.nav-li:hover {
+  background: #48372F;
+  border-left: 6px solid brown;
+  color: #F1D8BD;
+}
+
+.active {
+  background: #48372F;
+  border-left: 6px solid brown;
+  color: #F1D8BD;
+  font-size: .85em;
+  padding: 7% 10%;
+}
+
+i.fa {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: .5em;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+}
+
+.nav-titles {
+  font-family: 'Arimo', sans-serif;
+  font-size: .8em;  
+  padding: 0% 0% 0% 14%;
+}
+
+.nav-list {
+  font-family: 'Arimo', sans-serif;
+  font-size: .75em;
+  list-style: none none inside;
+  padding: 0;
+}
+
+.categories {
+  border-bottom: 2px none #33240e;
+}
+
+.img-circle {
+  background-image: url('images/tiger-romero-2.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  height: 4em;
+  margin: 24% auto 11%;
+  width: 4em;
+}
+
+ul {
+  list-style: none circle inside;
+}
+
+.color-1 {
+  background: #E68449;
+  display: inline-block;
+  margin: 0% 12% 0% 6%;
+  height: 12px; 
+  width: 12px;
+}
+
+i.fa-check {
+  font-size: .75em;
+  text-align: center;
+  vertical-align: middle;
+  width: 12px;
+}
+
+.color-2 {
+  background: #AB6236;
+  display: inline-block;
+  margin: 0% 12% 0% 6%;
+  height: 12px; 
+  width: 12px;
+}
+
+.color-3 {
+  background: #9A755F;
+  display: inline-block;
+  margin: 0% 12% 0% 6%;
+  height: 12px; 
+  width: 12px;
+}
+
+.color-4 {
+  background: #E7AF8E;
+  display: inline-block;
+  margin: 0% 12% 0% 6%;
+  height: 12px; 
+  width: 12px;
+}
+
+/*content*/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 87%;
+}
+
+header {
+  background: #FFECE3;
+  display: grid;
+  /*flex: 0 1 auto;*/
+}
+
+.login {
+  display: flex;
+}
+
+.menu-icon {
+  border: 1px solid #CCBDB6;
+  height: 70px;
+  width: 72px;
+}
+
+i.fa-caret-left {
+  color: brown;
+  font-size: .75em;
+  margin: 0;
+  padding: 25px 0px 0px 20px;
+}
+
+i.fa-bars {
+  color: #33240e;
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 25px 36px 0px 0px;
+}
+
+.search-bar{
+  padding: 0px 345px;
+}
+
+i.fa-user-plus {
+  color: #F1D8BD;
+  font-size: 1.25em;
+  padding: 23px 25px;
+}
+
+
+i.fa-th {
+  color: #33240e;
+  padding: 23px 25px;
+}
+
+.user-btn {
+  background: brown;
+}
+
+.page-tabs {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Teko', sans-serif;
+}
+
+.graphics {
+  background: #A48271; 
+  /*flex: 1 1 auto;*/
+}
+
+.job {
+  background: #A48271;
+  display: flex;
+  /*flex: 1 0 100vh;*/
+  flex-direction: row;
+}
+
+.job-description {
+  background: #715A4E;
+  margin: 3% 3%;
+  width: 75%;
+}
+
+.sm-links {
+  background: orange;
+  display: flex;
+  flex-direction: column;
+  margin: 3% 3% 3% 0%;
+  width: 25%;
+}
