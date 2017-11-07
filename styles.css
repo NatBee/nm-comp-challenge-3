@@ -27,7 +27,7 @@ nav {
 nav h1 {
   font-family: 'Arimo', sans-serif;
   font-size: .75em;
-  padding: 0% 0% 13% 10%;
+  padding: 0% 0% 7% 10%;
   text-align: center;
 }
 
@@ -48,13 +48,13 @@ hr {
 
 .nav-li:hover {
   background: #48372F;
-  border-left: 6px solid brown;
+  border-left: 4px solid brown;
   color: #F1D8BD;
 }
 
 .active {
   background: #48372F;
-  border-left: 6px solid brown;
+  border-left: 4px solid brown;
   color: #F1D8BD;
   font-size: .85em;
   padding: 7% 10%;
@@ -94,7 +94,7 @@ i.fa {
   display: flex;
   justify-content: center;
   height: 4em;
-  margin: 24% auto 11%;
+  margin: 19% auto 6%;
   width: 4em;
 }
 
@@ -151,6 +151,7 @@ i.fa-check {
 }
 
 header {
+  /*background: #DCCDC4;*/
   background: #FFECE3;
   display: grid;
   flex: 0 1 auto;
@@ -217,37 +218,160 @@ i.header-btn:hover {
 
 /*job header*/
 
+.job-header {
+	display: flex;
+}
+
+.job-title {
+	flex: 1;
+}
+
 .job-title h1 {
   font-size: 1.5em;
   margin: 0;
-  padding: 47px 0px 0px 44px;
+  padding: 37px 0px 0px 44px;
 }
 
 .job-title h2 {
+	color: grey;
   display: flex;
   font-size: .75em;
-  padding: 0px 39px;
+	padding: 0px 38px;
+}
+
+i.fa-map-marker {
+	margin: 0;
+}
+
+i.fa-plus {
+	font-size: .5em;
+	margin: 0;
+  padding: 6px 0px;
+}
+
+.preview-post {
+	color: brown;
+	padding: 1px 0px;
+}
+
+/*job tab buttons*/
+
+.job-btns {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin: 0;
+  padding: 23px 23px 0px 20px;
+}
+
+.green-circle {
+	background: green;
+  height: 7px;
+  width: 7px;
+  border-radius: 100px;
+  margin: 0px 7px 1px 0px;
+  display: inline-block;
+}
+
+.open {
+	border: 1px solid grey;
+	border-radius: 100px;
+  height: 3em;
+  width: 6em;
+  margin: 25px 8px;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: .75em;
+}
+
+.icon-btns {
+	border: 1px solid grey;
+	border-radius: 100px;
+  height: 2.25em;
+  margin: 25px 8px;
+  width: 2.25em;
+}
+
+i.fa-icon-btn {
+	font-size: 1em;
+	padding: 9px 12px;
 }
 
 /*job tabs*/
 
 .job-tabs {
+	color: grey;
   display: flex;
   flex-direction: row;
   font-family: 'Teko', sans-serif;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 24px 218px 0px 46px;
 }
+
+.job-tabs li{
+	padding-bottom: 9px;
+}
+
+.job-tabs-li:hover {
+	border-bottom: 4px solid brown;
+	color: black;
+}
+
+.summary {
+	border-bottom: 4px solid brown;
+	color: black;
+}
+
+
 
 /*visuals*/
 
 .graphics {
-  background: #A48271; 
+  background: #9D887D;
   flex: 1 1 auto;
+  height: 321px;
+  border: 2px solid black;
+  display: flex;
+}
+
+.circ-graph {
+  height: 319px;
+  width: 677px;
+  border: 2px solid black;
+}
+
+.graph {
+  width: 447px;
+  padding: 39px 1px;
+}
+
+.graph-img {
+  background: url('images/bar-graph.png');
+  height: 206px;
+  width: 400px;
+  background-position: center;
+  background-size: 428px;
+}
+
+.graph-btn {
+  border: 1px solid grey;
+  border-radius: 100px;
+  background: #FFFFFF;
+  font-size: 17px;
+  text-align: center;
+  height: 1.5em;
+  width: 8em;
+  font-family: 'Teko', sans-serif;
+  padding: 2px 0px;
+  margin: 11px 0px 0px 134px;
 }
 
 /*job description*/
 
 .job {
-  background: #A48271;
+  background: #9D887D;
   display: flex;
   flex: 1 0 100vh;
   flex-direction: row;
