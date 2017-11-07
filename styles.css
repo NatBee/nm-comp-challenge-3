@@ -382,6 +382,19 @@ i.fa-icon-btn {
   font-size: 2.25em;
 }
 
+.circ-graph-btn {
+  border: 1px solid grey;
+  border-radius: 100px;
+  background: #FFFFFF;
+  font-size: 17px;
+  text-align: center;
+  height: 1.5em;
+  width: 10em;
+  font-family: 'Teko', sans-serif;
+  padding: 2px 0px;
+  margin: 43px 0px 0px 250px;
+}
+
 .graph {
   width: 447px;
   padding: 39px 1px;
