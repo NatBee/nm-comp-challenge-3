@@ -205,7 +205,7 @@ i.fa-user-plus {
 
 i.header-btn {
   color: #33240e;
-  padding: 24px 25px;
+  padding: 24px 24px;
 }
 
 i.header-btn:hover {
@@ -339,7 +339,47 @@ i.fa-icon-btn {
 .circ-graph {
   height: 319px;
   width: 677px;
-  border: 2px solid black;
+  padding: 43px 0px;
+}
+
+.bt-circles {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 1;
+}
+
+.circles {
+  border-radius: 100px;
+  height: 10em;
+  width: 10em;
+}
+
+.bt-cir1 {
+  background: #4598AE;
+}
+
+.bt-cir2 {
+  background: brown;
+}
+
+.bt-cir3 {
+  background: purple;
+}
+
+.tp-circ {
+  background: #9D887D;
+  border-radius: 100px;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  padding: 38px 0px;
+  height: 8.5em;
+  width: 8.5em;
+  margin: 13px 13px;
+}
+
+.numbers {
+  font-size: 2.25em;
 }
 
 .graph {
