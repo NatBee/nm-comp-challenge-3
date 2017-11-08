@@ -616,4 +616,59 @@ i.fa-job {
   width: 5em;
 }
 
+/*screen break*/
 
+@media only screen and (max-width: 1130px) {
+
+  .graphics {
+    display: flex;
+    flex-direction: column;
+    height: 652px;
+  }
+
+  .circ-graph {
+    margin: 0% 0% 0% 14%;
+  }
+
+  .graph {
+    padding: 0% 28%;
+  }
+
+  .job {
+    flex-direction: column;
+  }
+
+  .job-description {
+    margin: 1% 12%;
+  }
+
+  .sm-links {
+    margin: 3% 3% 3% 35%;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  
+  nav {
+    display: none;
+  }
+
+  .content {
+    width: 222%;
+  }
+
+  .circ-graph {
+    margin: 0;
+  }
+
+  .graph {
+    padding: 0% 21%;
+  }
+
+  .sm-links {
+    margin: 3% 3% 30% 31%;
+    width: 38%;
+  }
+
+}
