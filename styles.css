@@ -627,19 +627,11 @@ i.fa-job {
   }
 
   .circ-graph {
-    height: 50%;
-    margin: 0% 0% 0% 8%;
-    padding: 4% 0%;
-    width: 85%;
-  }
-
-  .circ-graph-btn {
-    margin: 4% 38%;
+    margin: 0% 0% 0% 14%;
   }
 
   .graph {
-    margin: 0% 0% 0% 25%;
-    width: 75%;
+    padding: 0% 28%;
   }
 
   .job {
@@ -650,31 +642,9 @@ i.fa-job {
     margin: 1% 12%;
   }
 
-  .fb {
-    width: 33em;
-  }
-
-  .twitter {
-    width: 33em;
-  }
-
-  .linked-in {
-    width: 33em;
-  }
-
-  .btm-search {
-    width: 301px;
-  }
-  
-  .upload-btn {
-    width: 360px;
-  }
-
   .sm-links {
-    margin: 10% 3% 55% 31%;
-    width: 38%;
+    margin: 3% 3% 3% 31%;
   }
-
 
 }
 
