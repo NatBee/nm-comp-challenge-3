@@ -105,8 +105,8 @@ ul {
 .color-1 {
   background: #E68449;
   display: inline-block;
-  margin: 0% 12% 0% 6%;
   height: 12px; 
+  margin: 0% 12% 0% 6%;
   width: 12px;
 }
 
@@ -120,24 +120,24 @@ i.fa-check {
 .color-2 {
   background: #AB6236;
   display: inline-block;
-  margin: 0% 12% 0% 6%;
   height: 12px; 
+  margin: 0% 12% 0% 6%;
   width: 12px;
 }
 
 .color-3 {
   background: #9A755F;
   display: inline-block;
-  margin: 0% 12% 0% 6%;
   height: 12px; 
+  margin: 0% 12% 0% 6%;
   width: 12px;
 }
 
 .color-4 {
   background: #E7AF8E;
   display: inline-block;
-  margin: 0% 12% 0% 6%;
   height: 12px; 
+  margin: 0% 12% 0% 6%;
   width: 12px;
 }
 
@@ -151,7 +151,6 @@ i.fa-check {
 }
 
 header {
-  /*background: #DCCDC4;*/
   background: #FFECE3;
   display: grid;
   flex: 0 1 auto;
@@ -191,10 +190,10 @@ i.fa-bars {
 }
 
 .search-bar{
-  padding:10px;
   flex: 1;  
   font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
   font-size: .85em;
+  padding:10px;
 }
 
 i.fa-user-plus {
@@ -240,7 +239,7 @@ i.header-btn:hover {
 }
 
 i.fa-map-marker {
-	margin: 0;
+	margin: 0px 9px 0px 0px;
 }
 
 i.fa-plus {
@@ -260,28 +259,27 @@ i.fa-plus {
   display: flex;
   justify-content: center;
   margin: 0;
-  margin: 0;
   padding: 23px 23px 0px 20px;
 }
 
 .green-circle {
 	background: green;
-  height: 7px;
-  width: 7px;
   border-radius: 100px;
-  margin: 0px 7px 1px 0px;
   display: inline-block;
+  height: 7px;
+  margin: 0px 7px 1px 0px;
+  width: 7px;
 }
 
 .open {
 	border: 1px solid grey;
 	border-radius: 100px;
-  height: 3em;
-  width: 6em;
-  margin: 25px 8px;
-  text-align: center;
-  padding: 10px 0px;
   font-size: .75em;
+  height: 3em;
+  margin: 25px 8px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 6em;
 }
 
 .icon-btns {
@@ -330,15 +328,15 @@ i.fa-icon-btn {
 
 .graphics {
   background: #9D887D;
+  display: flex;
   flex: 1 1 auto;
   height: 313px;
-  display: flex;
 }
 
 .circ-graph {
   height: 319px;
-  width: 677px;
   padding: 43px 0px;
+  width: 677px;
 }
 
 .bt-circles {
@@ -370,11 +368,11 @@ i.fa-icon-btn {
   background: #9D887D;
   border-radius: 100px;
   font-family: 'Teko', sans-serif;
-  text-align: center;
-  padding: 38px 0px;
   height: 8.5em;
-  width: 8.5em;
   margin: 13px 13px;
+  padding: 38px 0px;
+  text-align: center;
+  width: 8.5em;
 }
 
 .numbers {
@@ -382,42 +380,42 @@ i.fa-icon-btn {
 }
 
 .circ-graph-btn {
+  background: #FFFFFF;
   border: 1px solid grey;
   border-radius: 100px;
-  background: #FFFFFF;
-  font-size: 17px;
-  text-align: center;
-  height: 1.5em;
-  width: 10em;
   font-family: 'Teko', sans-serif;
-  padding: 2px 0px;
+  font-size: 17px;
+  height: 1.5em;
   margin: 43px 0px 0px 250px;
+  padding: 2px 0px;
+  text-align: center;
+  width: 10em;
 }
 
 .graph {
-  width: 447px;
   padding: 39px 1px;
+  width: 447px;
 }
 
 .graph-img {
   background: url('images/bar-graph.png');
-  height: 206px;
-  width: 400px;
   background-position: center;
   background-size: 428px;
+  height: 206px;
+  width: 400px;
 }
 
 .graph-btn {
+  background: #FFFFFF;
   border: 1px solid grey;
   border-radius: 100px;
-  background: #FFFFFF;
-  font-size: 17px;
-  text-align: center;
-  height: 1.5em;
-  width: 8em;
   font-family: 'Teko', sans-serif;
-  padding: 2px 0px;
+  font-size: 17px;
+  height: 1.5em;
   margin: 11px 0px 0px 134px;
+  padding: 2px 0px;
+  text-align: center;
+  width: 8em;
 }
 
 .mid-line {
@@ -443,7 +441,7 @@ i.fa-icon-btn {
 .job {
   background: #9D887D;
   display: flex;
-  flex: 1 0 100vh;
+  flex: 1 0 100;
   flex-direction: row;
 }
 
@@ -463,8 +461,8 @@ i.fa-icon-btn {
   background: #8C7061;
   color: #FFECE3;
   display: inline;
-  padding: 6px 7px 6px 0px;
   margin: 0px 54px;
+  padding: 6px 7px 6px 0px;
 }
 
 i.fa-pencil {
@@ -482,42 +480,140 @@ dl {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  width: 100%;
   margin: 0;
   padding: 20px 32px 21px 37px;
+  width: 100%;
 }
 
 dt {
-  font-size: .85em;
-  flex: 0 0 26%;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  margin: 0;
   border-bottom: 2px solid;
-  padding: 16px 0px 0px 0px;
+  flex: 0 0 26%;
+  font-size: .85em;
+  margin: 0;
+  overflow: hidden;
+  padding: 25px 0px 0px 0px;
+  text-overflow: ellipsis;
 }
 
 dd {
+  border-bottom: 2px solid;
   flex:0 0 73%;
   font-size: .85em;
   margin: 0;
+  overflow: hidden;
+  padding: 25px 0px 25px 0px;
   text-align: left;
   text-overflow: ellipsis;
-  overflow: hidden;
-  padding: 16px 0px 30px 0px;
-  border-bottom: 2px solid;
 }
 
 .last-dd {
   border-bottom: none;
 }
 
+.hiring-lead {
+  padding: 41px 0px 0px 0px;
+}
+
+.hiring {
+  background-image: url('images/cookie-monster.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 100px;
+  display: inline-flex;
+  height: 3em;
+  justify-content: center;
+  margin: 0px 15px 0px 0px;
+  padding: 0px 0px 16px 0px;
+  width: 3em;
+}
+
 /*social media links*/
 
 .sm-links {
-  background: orange;
   display: flex;
   flex-direction: column;
   margin: 3% 3% 3% 0%;
   width: 25%;
 }
+
+i.fa-sm {
+  font-size: 1.25em;
+  padding: 0px 50px 0px 0px;
+}
+
+.fb {
+  background: #4E74C1;
+  color: #FFECE3;
+  font-size: .65em;
+  height: 3.5em;
+  margin-bottom: 18px;
+  padding: 13px 45px 0px 0px;
+  text-align: center;
+  width: 22em;
+}
+
+.twitter {
+  background: #1DACED;
+  color: #FFECE3;
+  font-size: .65em;
+  height: 3.5em;
+  margin-bottom: 18px;
+  padding: 13px 70px 0px 0px;
+  text-align: center;
+  width: 22em;
+}
+
+.linked-in {
+  background: #1685BF;
+  color: #FFECE3;
+  font-size: .65em;
+  height: 3.5em;
+  margin-bottom: 33px;
+  padding: 13px 54px 0px 0px;
+  text-align: center;
+  width: 22em;
+}
+
+i.fa-job {
+  display: inline-block;
+  font-size: .7em;
+  margin: 0;
+  padding: 0px 16px 0px 0px;
+  text-align: center;
+  vertical-align: middle;
+  width: 14px;
+
+}
+
+.job-link-des {
+  font-size: 1em;
+  margin: 0;
+}
+
+.desc {
+  font-size: .75em;
+  text-align: justify;
+}
+
+.btm-search {
+  height: 40px;
+  width: 192px;
+}
+
+.upload-btn {
+  width: 254px;
+}
+
+.copy-button {
+  background: #4598AE;
+  color: #FFECE3;
+  display: inline-block;
+  font-size: .65em;
+  height: 3.75em;
+  margin-bottom: 36px;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+  width: 5em;
+}
+
+
