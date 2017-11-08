@@ -627,11 +627,19 @@ i.fa-job {
   }
 
   .circ-graph {
-    margin: 0% 0% 0% 14%;
+    height: 50%;
+    margin: 0% 0% 0% 8%;
+    padding: 4% 0%;
+    width: 85%;
+  }
+
+  .circ-graph-btn {
+    margin: 4% 38%;
   }
 
   .graph {
-    padding: 0% 28%;
+    margin: 0% 0% 0% 25%;
+    width: 75%;
   }
 
   .job {
@@ -642,9 +650,31 @@ i.fa-job {
     margin: 1% 12%;
   }
 
-  .sm-links {
-    margin: 3% 3% 3% 35%;
+  .fb {
+    width: 33em;
   }
+
+  .twitter {
+    width: 33em;
+  }
+
+  .linked-in {
+    width: 33em;
+  }
+
+  .btm-search {
+    width: 301px;
+  }
+  
+  .upload-btn {
+    width: 360px;
+  }
+
+  .sm-links {
+    margin: 10% 3% 55% 31%;
+    width: 38%;
+  }
+
 
 }
 
@@ -652,6 +682,10 @@ i.fa-job {
   
   nav {
     display: none;
+  }
+
+  .job-tabs {
+    padding: 24px 37px 0px 46px;
   }
 
   .content {
@@ -666,8 +700,20 @@ i.fa-job {
     padding: 0% 21%;
   }
 
+  .fb {
+    margin-bottom: 50px;
+  }
+
+  .twitter {
+    margin-bottom: 50px;
+  }
+
+  .linked-in {
+    margin-bottom: 50px;
+  }
+
   .sm-links {
-    margin: 3% 3% 30% 31%;
+    margin: 10% 3% 55% 31%;
     width: 38%;
   }
 
