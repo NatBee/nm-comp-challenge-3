@@ -331,8 +331,7 @@ i.fa-icon-btn {
 .graphics {
   background: #9D887D;
   flex: 1 1 auto;
-  height: 321px;
-  border: 2px solid black;
+  height: 313px;
   display: flex;
 }
 
@@ -421,6 +420,24 @@ i.fa-icon-btn {
   margin: 11px 0px 0px 134px;
 }
 
+.mid-line {
+  background: #9D887D;
+  display: flex;
+}
+
+.mid {
+  border-color: #33240e;
+  width: 50%;
+}
+
+.mid-1 {
+  margin: 12px 15px 11px 42px;
+}
+
+.mid-2 {
+  margin: 12px 42px 11px 0px;
+}
+
 /*job description*/
 
 .job {
@@ -431,9 +448,68 @@ i.fa-icon-btn {
 }
 
 .job-description {
-  background: #715A4E;
-  margin: 3% 3%;
+  margin: 1% 3%;
   width: 75%;
+}
+
+.top {
+  background-color: #715A4E;
+  color: #FFECE3;
+  margin-bottom: 0;
+  padding: 22px 0px 22px 38px;
+}
+
+.top-btn {
+  background: #8C7061;
+  color: #FFECE3;
+  display: inline;
+  padding: 6px 7px 6px 0px;
+  margin: 0px 54px;
+}
+
+i.fa-pencil {
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.job-details {
+  background: #FFECE3;
+}
+
+dl {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 20px 32px 21px 37px;
+}
+
+dt {
+  font-size: .85em;
+  flex: 0 0 26%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+  border-bottom: 2px solid;
+  padding: 16px 0px 0px 0px;
+}
+
+dd {
+  flex:0 0 73%;
+  font-size: .85em;
+  margin: 0;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 16px 0px 30px 0px;
+  border-bottom: 2px solid;
+}
+
+.last-dd {
+  border-bottom: none;
 }
 
 /*social media links*/
