@@ -595,7 +595,6 @@ i.fa-job {
   text-align: center;
   vertical-align: middle;
   width: 14px;
-
 }
 
 .job-link-des {
@@ -713,7 +712,23 @@ i.fa-job {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 625px) {
 
+  .summary {
+    font-size: 1.7em;
+    margin: auto;
+  }
 
+  .job-tabs-li {
+    display: none;
+  }
+
+  .job-title {
+    margin: auto;
+  }
+
+  .job-header {
+    display: flex;
+    flex-direction: column;
+  }
 }
