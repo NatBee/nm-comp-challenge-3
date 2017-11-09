@@ -330,13 +330,13 @@ i.fa-icon-btn {
   background: #9D887D;
   display: flex;
   flex: 1 1 auto;
-  height: 313px;
+  justify-content: center;
+  padding: 38px 0px 20px 0px;
 }
 
 .circ-graph {
-  height: 319px;
-  padding: 43px 0px;
-  width: 677px;
+  height: 97%;
+  width: 60%;
 }
 
 .bt-circles {
@@ -400,23 +400,22 @@ i.fa-icon-btn {
   font-family: 'Teko', sans-serif;
   font-size: 17px;
   height: 1.5em;
-  margin: 43px 0px 0px 250px;
+  margin: 7px auto;
   padding: 2px 0px;
   text-align: center;
   width: 10em;
 }
 
 .graph {
-  padding: 39px 1px;
-  width: 447px;
+  width: 39%;
 }
 
 .graph-img {
-  background: url('images/bar-graph.png');
+  background: url(images/bar-graph.png)no-repeat;
   background-position: center;
-  background-size: 428px;
-  height: 206px;
-  width: 400px;
+  background-size: cover;
+  height: 75%;
+  min-width: 100px;
 }
 
 .graph-btn {
@@ -426,7 +425,7 @@ i.fa-icon-btn {
   font-family: 'Teko', sans-serif;
   font-size: 17px;
   height: 1.5em;
-  margin: 11px 0px 0px 134px;
+  margin: 26px 0px 0px 132px;
   padding: 2px 0px;
   text-align: center;
   width: 8em;
@@ -632,20 +631,35 @@ i.fa-job {
 
 /*screen break*/
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1100px) {
+
+  .job-tabs {
+    padding: 24px 35px 0px 46px;
+  }
 
   .graphics {
     display: flex;
     flex-direction: column;
-    height: 652px;
+    justify-content: center;
   }
 
   .circ-graph {
-    margin: 0% 0% 0% 14%;
+    margin: auto;
   }
 
   .graph {
-    padding: 0% 28%;
+    height: 240px;
+    margin: 32px auto;
+    width: 430px;
+  }
+
+  .graph-img {
+    height: 200px;
+    width: 437px;
+  }
+
+  .graph-btn {
+    margin: 26px auto 0px;
   }
 
   .job {
@@ -657,12 +671,13 @@ i.fa-job {
   }
 
   .sm-links {
-    margin: 3% 3% 3% 31%;
+    margin: auto;
+    width: 252px;
   }
 
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
   
   nav {
     display: none;
@@ -677,11 +692,7 @@ i.fa-job {
   }
 
   .circ-graph {
-    margin: 0;
-  }
-
-  .graph {
-    padding: 0% 21%;
+    margin: auto;
   }
 
   .fb {
@@ -698,7 +709,11 @@ i.fa-job {
 
   .sm-links {
     margin: 10% 3% 55% 31%;
-    width: 38%;
+    width: 43%;
   }
+}
+
+@media only screen and (max-width: 800px) {
+
 
 }
