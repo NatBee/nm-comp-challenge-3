@@ -712,7 +712,11 @@ i.fa-job {
   }
 }
 
-@media only screen and (max-width: 625px) {
+@media (max-width: 625px) {
+
+  .graphics {
+    padding: 0px 24px 0px 24px;
+  }
 
   .summary {
     font-size: 1.7em;
@@ -730,5 +734,10 @@ i.fa-job {
   .job-header {
     display: flex;
     flex-direction: column;
+  }
+
+  .job-description {
+    margin: auto;
+    width: 85%;
   }
 }
